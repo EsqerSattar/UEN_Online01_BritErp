@@ -11,12 +11,12 @@ public class ConfigurationReader {
         try {
             String path = "configuration.properties";
 
-            FileInputStream stream = new FileInputStream(path);
+            FileInputStream fileInputStream = new FileInputStream(path);
 
             properties = new Properties();
-            properties.load(stream);
+            properties.load(fileInputStream);
 
-            stream.close();
+            fileInputStream.close();
         }catch (IOException e) {
             e.printStackTrace();
         }

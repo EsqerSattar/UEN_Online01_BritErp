@@ -4,7 +4,9 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -29,7 +31,8 @@ public abstract class TestBase {
         driver = Driver.getDriver();
         pages = new Pages();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get(ConfigurationReader.getProperty("url"));
+        driver.manage().window().maximize();
+        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
     }
 
     @AfterMethod

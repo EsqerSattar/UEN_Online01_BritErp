@@ -16,8 +16,7 @@ public class smokeTests extends TestBase {
 
         // use logger to log the steps
         extentLogger.info("Logging to the application");
-        pages.login().login(ConfigurationReader.getProperty("username"),
-                ConfigurationReader.getProperty("password"));
+        pages.login().managerLogin();
 
 
 

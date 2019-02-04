@@ -13,8 +13,8 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(linkText = "BriteErpDemo")
-    public WebElement BriteErpDemoClick;
+    @FindBy(xpath ="//a[contains(.,'Demo')]")
+    public WebElement clickDemo;
 
     @FindBy(id="login")
     public WebElement Email;
@@ -26,16 +26,31 @@ public class LoginPage {
     public WebElement loginButton;
 
     //clicking Manufacturing module
-    @FindBy (css=".oe_menu_toggler")
-    public WebElement manufacturing;
+    @FindBy (linkText="Manufacturing")
+    public WebElement module;
 
 
 
-    public void login(String username, String password){
-        this.Email.sendKeys("in_manuf_manager@info.com");
-        this.password.sendKeys("kop98tfgQ68");
+    public void managerLogin(){
+        //click demo login
+        clickDemo.click();
+        Email.sendKeys(ConfigurationReader.getProperty("managerLogin"));
+        password.sendKeys(ConfigurationReader.getProperty("managerPass"));
         loginButton.click();
+        module.click();
     }
+
+    public void userLogin(){
+        clickDemo.click();
+        Email.sendKeys(ConfigurationReader.getProperty("userLogin"));
+        password.sendKeys(ConfigurationReader.getProperty("userPass"));
+        loginButton.click();
+        module.click();
+    }
+
+
+
+
 
     public void open() {
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
