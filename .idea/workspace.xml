@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa40843f-1bf1-4e4d-8770-80948b7a628d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/briteErpManufacturing.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,36 +18,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UmutFunctionality.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/BrowserUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="90">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="195">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="300">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewUnbuildOrdersPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/pages/Menu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UmutFunctionality.java" />
       </list>
     </option>
   </component>
@@ -191,7 +189,18 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testng-selenium-framework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="721" />
@@ -208,42 +217,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="britErp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -251,8 +262,8 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -260,8 +271,8 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -270,8 +281,8 @@
               <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -281,8 +292,18 @@
               <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="briteErpManufacturing" type="462c0819:PsiDirectoryNode" />
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="britErp" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="smoke_tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UEN_Online01_BritErp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UEN_Online01_BritErp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -293,12 +314,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549313879243" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549411799571" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -393,6 +412,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.ManagerLogin" />
+      <item itemvalue="TestNG.ManagerLogin.managerLogin" />
+      <item itemvalue="TestNG.UserLogin.userLogin" />
+      <item itemvalue="TestNG./Users/esqersattar/Documents/framework/briteErpManufacturing/testng_runner.xml" />
+      <item itemvalue="TestNG.smokeTests.britSmokeTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ManagerLogin.managerLogin" />
@@ -417,18 +443,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserLogin_userLogin - 2019.02.04 at 03h 26m 43s.xml">
-      <configuration name="UserLogin.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserLogin_userLogin - 2019.02.04 at 03h 59m 37s.xml">
-      <configuration name="UserLogin.userLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 04h 01m 09s.xml">
-      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 04h 03m 18s.xml">
-      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 04h 12m 51s.xml">
       <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
     </history-entry>
@@ -447,12 +461,24 @@
     <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 13h 54m 42s.xml">
       <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 21h 39m 30s.xml">
+      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 22h 15m 05s.xml">
+      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 22h 27m 27s.xml">
+      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 22h 28m 32s.xml">
+      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="721" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28513733" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26323318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +487,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3283082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49920508" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3192771" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,6 +504,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3297568" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -499,16 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="459" column="27" lean-forward="true" selection-start-line="459" selection-start-column="27" selection-end-line="459" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -583,10 +600,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -612,8 +649,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="90">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -644,23 +681,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="90">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UmutFunctionality.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
