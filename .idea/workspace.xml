@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa40843f-1bf1-4e4d-8770-80948b7a628d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/pages/ViewUnbuildOrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/pages/ViewUnbuildOrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/utilities/BrowserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/pages/ViewManufacturingOrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/pages/ViewManufacturingOrdersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/pages/ViewOrdersReportPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/pages/ViewOrdersReportPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/pages/ViewUnbuildOrdersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/pages/ViewUnbuildOrdersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/tests/functional_tests/login/ManagerLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/tests/functional_tests/login/ManagerLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/tests/functional_tests/login/UserLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/tests/functional_tests/login/UserLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/tests/smoke_tests/smokeTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/tests/smoke_tests/smokeTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/utilities/BrowserUtils$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/utilities/BrowserUtils$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/utilities/BrowserUtils$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/utilities/BrowserUtils$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/utilities/BrowserUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/britErp/utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/britErp/utilities/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190203012418.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190203012643.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190203013150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190203013220.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190203014401.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190203014513.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190203015509.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204014429.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204014738.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204021057.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204021652.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204022628.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204022941.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204030435.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204030633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204030804.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsmanagerLogin20190204031031.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,27 +54,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+            <state relative-caret-position="265">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,20 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/BrowserUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state relative-caret-position="1935">
+              <caret line="129" column="76" selection-start-line="129" selection-start-column="76" selection-end-line="129" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,29 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="345">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="66">
+              <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,26 +107,63 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewUnbuildOrdersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="182">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/ConfigurationReader.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configuration.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#661#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="66" column="97" lean-forward="true" selection-start-line="66" selection-start-column="97" selection-end-line="66" selection-end-column="97" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,23 +195,24 @@
         <option value="$PROJECT_DIR$/regression_runner" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrders.java" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/Pages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/BrowserUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/Driver.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/PageHeadersTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/ConfigurationReader.java" />
         <option value="$PROJECT_DIR$/regression_runner.xml" />
-        <option value="$PROJECT_DIR$/testng_runner.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java" />
         <option value="$PROJECT_DIR$/configuration.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewUnbuildOrdersPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/pages/Menu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/BrowserUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewUnbuildOrdersPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java" />
+        <option value="$PROJECT_DIR$/testng_runner.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java" />
       </list>
     </option>
   </component>
@@ -194,7 +226,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="721" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -278,7 +310,7 @@
               <item name="britErp" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="functional_tests" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="major_functionality" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="briteErpManufacturing" type="b2602c69:ProjectViewProjectNode" />
@@ -298,7 +330,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549313879243" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549685448301" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="britErp.tests.functional_tests" />
+      <recent name="britErp.tests.functional_tests.functional_tests" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -312,34 +351,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ManagerLogin.managerLogin">
-    <configuration name="ManagerLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ManufacturingOrders.BRIT_1455">
+    <configuration name="ManufacturingOrders.BRIT_1437" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="briteErpManufacturing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="britErp.tests.functional_tests.login.*" />
+          <option name="PATTERN" value="britErp.tests.functional_tests.major_functionality.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="britErp.tests.functional_tests.login" />
-      <option name="MAIN_CLASS_NAME" value="britErp.tests.functional_tests.login.ManagerLogin" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ManagerLogin.managerLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="briteErpManufacturing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="britErp.tests.functional_tests.login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="britErp.tests.functional_tests.login" />
-      <option name="MAIN_CLASS_NAME" value="britErp.tests.functional_tests.login.ManagerLogin" />
-      <option name="METHOD_NAME" value="managerLogin" />
+      <option name="PACKAGE_NAME" value="britErp.tests.functional_tests.major_functionality" />
+      <option name="MAIN_CLASS_NAME" value="britErp.tests.functional_tests.major_functionality.ManufacturingOrders" />
+      <option name="METHOD_NAME" value="BRIT_1437" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -347,17 +370,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserLogin.userLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ManufacturingOrders.BRIT_1455" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="briteErpManufacturing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="britErp.tests.functional_tests.login.*" />
+          <option name="PATTERN" value="britErp.tests.functional_tests.major_functionality.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="britErp.tests.functional_tests.login" />
-      <option name="MAIN_CLASS_NAME" value="britErp.tests.functional_tests.login.UserLogin" />
-      <option name="METHOD_NAME" value="userLogin" />
+      <option name="PACKAGE_NAME" value="britErp.tests.functional_tests.major_functionality" />
+      <option name="MAIN_CLASS_NAME" value="britErp.tests.functional_tests.major_functionality.ManufacturingOrders" />
+      <option name="METHOD_NAME" value="BRIT_1455" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -365,17 +388,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/esqersattar/Documents/framework/briteErpManufacturing/testng_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ManufacturingOrders.BRIT_935" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="briteErpManufacturing" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng_runner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="britErp.tests.functional_tests.major_functionality.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="britErp.tests.functional_tests.major_functionality" />
+      <option name="MAIN_CLASS_NAME" value="britErp.tests.functional_tests.major_functionality.ManufacturingOrders" />
+      <option name="METHOD_NAME" value="BRIT_935" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="smokeTests.britSmokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ManufacturingOrders.manufacturingOrders" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="briteErpManufacturing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="britErp.tests.functional_tests.major_functionality.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="britErp.tests.functional_tests.major_functionality" />
+      <option name="MAIN_CLASS_NAME" value="britErp.tests.functional_tests.major_functionality.ManufacturingOrders" />
+      <option name="METHOD_NAME" value="manufacturingOrders" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="smokeTests.britSmokeTest_BRIT_3788" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="briteErpManufacturing" />
       <extension name="coverage">
         <pattern>
@@ -385,7 +434,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="britErp.tests.smoke_tests" />
       <option name="MAIN_CLASS_NAME" value="britErp.tests.smoke_tests.smokeTests" />
-      <option name="METHOD_NAME" value="britSmokeTest" />
+      <option name="METHOD_NAME" value="britSmokeTest_BRIT_3788" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -395,11 +444,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ManagerLogin.managerLogin" />
-        <item itemvalue="TestNG.ManagerLogin" />
-        <item itemvalue="TestNG.smokeTests.britSmokeTest" />
-        <item itemvalue="TestNG.UserLogin.userLogin" />
-        <item itemvalue="TestNG./Users/esqersattar/Documents/framework/briteErpManufacturing/testng_runner.xml" />
+        <item itemvalue="TestNG.ManufacturingOrders.BRIT_1455" />
+        <item itemvalue="TestNG.ManufacturingOrders.BRIT_1437" />
+        <item itemvalue="TestNG.ManufacturingOrders.BRIT_935" />
+        <item itemvalue="TestNG.ManufacturingOrders.manufacturingOrders" />
+        <item itemvalue="TestNG.smokeTests.britSmokeTest_BRIT_3788" />
       </list>
     </recent_temporary>
   </component>
@@ -417,42 +466,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserLogin_userLogin - 2019.02.04 at 03h 26m 43s.xml">
-      <configuration name="UserLogin.userLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 06m 39s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UserLogin_userLogin - 2019.02.04 at 03h 59m 37s.xml">
-      <configuration name="UserLogin.userLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 09m 26s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 04h 01m 09s.xml">
-      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 10m 22s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 04h 03m 18s.xml">
-      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 20m 02s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 04h 12m 51s.xml">
-      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 24m 18s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 04h 17m 17s.xml">
-      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 26m 24s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 04h 24m 08s.xml">
-      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 28m 07s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="smokeTests_britSmokeTest - 2019.02.04 at 04h 58m 22s.xml">
-      <configuration name="smokeTests.britSmokeTest" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 41m 37s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ManagerLogin - 2019.02.04 at 13h 47m 41s.xml">
-      <configuration name="ManagerLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 08h 56m 41s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ManagerLogin_managerLogin - 2019.02.04 at 13h 54m 42s.xml">
-      <configuration name="ManagerLogin.managerLogin" configurationId="TestNG" />
+    <history-entry file="ManufacturingOrders_BRIT_1455 - 2019.02.08 at 09h 00m 11s.xml">
+      <configuration name="ManufacturingOrders.BRIT_1455" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="721" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28513733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28675282" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -460,16 +509,16 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3283082" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49920508" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32692307" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3028846" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3301282" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.27945206" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290938" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.27884614" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -485,47 +534,10 @@
     <entry file="file://$PROJECT_DIR$/regression" />
     <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/login/managerLogin.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/MajorFunctionality.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/javafx-src.zip!/com/sun/javafx/scene/control/skin/FXVKSkin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="459" column="27" lean-forward="true" selection-start-line="459" selection-start-column="27" selection-end-line="459" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/briteErpManufacturing.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/smokeTest_runner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -536,101 +548,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng_runner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/Pages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/Menu.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/BrowserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/UserLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state relative-caret-position="31">
+          <caret line="6" column="45" lean-forward="true" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewUnbuildOrdersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/briteErpManufacturing.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/ConfigurationReader.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -644,22 +574,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="240">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="377">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng_runner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smokeTest_runner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1935">
+          <caret line="129" column="76" selection-start-line="129" selection-start-column="76" selection-end-line="129" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3-sources.jar!/org/testng/SuiteRunnerWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewOrdersReportPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewUnbuildOrdersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="66" column="97" lean-forward="true" selection-start-line="66" selection-start-column="97" selection-end-line="66" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
           </folding>
         </state>
       </provider>

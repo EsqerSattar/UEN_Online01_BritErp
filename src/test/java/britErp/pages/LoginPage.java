@@ -30,7 +30,6 @@ public class LoginPage {
     public WebElement module;
 
 
-
     public void managerLogin(){
         //click demo login
         clickDemo.click();
@@ -52,10 +51,10 @@ public class LoginPage {
 
 
 
-    public void open() {
-        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-
-    }
+//    public void open() {
+//        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
+//
+//    }
 
 
 }

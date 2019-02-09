@@ -20,12 +20,18 @@ import static org.testng.Assert.fail;
 
 public class BrowserUtils {
 
-    public static void wait(int secs) {
+    public static boolean isClickable(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         try {
-            Thread.sleep(1000 * secs);
-        } catch (InterruptedException e) {
+            wait.until(ExpectedConditions.elementToBeClickable(element));
+
+        }catch(Exception e){
+            return false;
         }
+        return true;
+
     }
+
     /**
      * Generates the String path to the screenshot taken.
      * Within the method, the screenshot is taken and is saved into FileUtils.
