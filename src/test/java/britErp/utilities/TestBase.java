@@ -17,7 +17,7 @@ import org.testng.annotations.BeforeTest;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public abstract class TestBase {
+public class TestBase {
     protected WebDriver driver;
     protected Pages pages;
 
@@ -48,7 +48,7 @@ public abstract class TestBase {
         } else if (result.getStatus() == ITestResult.SKIP) {
             extentLogger.skip("Test Case Skipped: " + result.getName());
         }
-      //  Driver.closeDriver();
+        Driver.closeDriver();
     }
 
     @BeforeTest
