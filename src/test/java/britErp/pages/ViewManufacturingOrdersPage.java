@@ -67,6 +67,18 @@ public class ViewManufacturingOrdersPage {
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[1]/div[1]/div[1]/button[8]")
     public WebElement cancelButton;
 
+    @FindBy(id = "o_field_input_254")
+    public WebElement productDropDown;
+
+    @FindBy(xpath = "//li[@tabindex='-1'][2]")
+    public WebElement createAndEditButton;
+
+    @FindBy(xpath = "//h4[@class='modal-title']")
+    public WebElement productHeader;
+
+    @FindBy(xpath = "//input[@name='date_planned_start']")
+    public WebElement deadlineStartBox;
+
     public void managerLogin_1() {
         //click demo login
         clickDemo.click();

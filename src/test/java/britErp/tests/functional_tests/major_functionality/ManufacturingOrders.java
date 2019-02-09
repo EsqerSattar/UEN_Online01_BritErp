@@ -19,7 +19,8 @@ import static org.testng.Assert.assertEquals;
 
 public class ManufacturingOrders extends TestBase {
         WebDriverWait wait;
-        ViewManufacturingOrdersPage MOrdersHeader, create, save, discard, cancel;
+        ViewManufacturingOrdersPage MOrdersHeader, create, save, discard, cancel, product, createEdit, proHeader,
+                deadline;
 
 
     @BeforeMethod
@@ -64,7 +65,7 @@ public class ManufacturingOrders extends TestBase {
         extentLogger = report.createTest("User login as a Manager BRIT-1437");
         extentLogger.info("Logging to the application");
         wait.until(ExpectedConditions.visibilityOf( MOrdersHeader.Header));
-        Thread.sleep(1000);
+        Thread.sleep(1300);
         String expectedMOrdersHeader = "Manufacturing Orders";
         String actualMOrdersHeader = MOrdersHeader.Header.getText();
         Assert.assertEquals(actualMOrdersHeader,expectedMOrdersHeader);
@@ -81,7 +82,7 @@ public class ManufacturingOrders extends TestBase {
         * 4. verify that Create button is clickable
         * 5. verify the page tile as New - Odoo
         */
-        wait=new WebDriverWait(Driver.getDriver(),25);
+
         create = new ViewManufacturingOrdersPage();
         save = new ViewManufacturingOrdersPage();
         discard = new ViewManufacturingOrdersPage();
@@ -95,6 +96,80 @@ public class ManufacturingOrders extends TestBase {
         Assert.assertTrue(save.saveButton.isDisplayed());
         Assert.assertTrue(discard.discardButton.isDisplayed());
         Assert.assertTrue(cancel.cancelButton.isDisplayed());
+    }
+
+    @Test
+    public void BRIT_1481() throws InterruptedException {
+        /*
+        *. Verify that as a user i should be able to click Product dropdown box and dropdown should be able to
+        *    display created products name, at the bottom of dropdown System should display Create and
+        *    Edit button.
+        * 1. login as a manager
+        * 2. click manufacturing module
+        * 3. click the create button
+        * 4. click product dropdown
+        * 5. verify create and edit button is display in dropdown
+        * 6. click the create and edit button
+        *
+         */
+
+
+        create = new ViewManufacturingOrdersPage();
+        product = new ViewManufacturingOrdersPage();
+        createEdit = new ViewManufacturingOrdersPage();
+
+        create.createButton.click();
+        Thread.sleep(1300);
+        product.productDropDown.click();
+        Assert.assertTrue(createEdit.createAndEditButton.isDisplayed());
+        createEdit.createAndEditButton.click();
+    }
+
+    @Test
+    public void BRIT_1920() throws InterruptedException {
+        /*
+         *  Verify that as a manager i should be able to type inside the Product box to search a created
+         *      product and able to click Create and Edit button in the dropdown menu.
+         * 1. login as a manager
+         * 2. click manufacturing module
+         * 3. click create button
+         * 4. user should able to type any product name in the product box
+         * 5. click create and edit button
+         * 6. verify that create: product page header is display
+        */
+
+        createEdit = new ViewManufacturingOrdersPage();
+        product = new ViewManufacturingOrdersPage();
+        create = new ViewManufacturingOrdersPage();
+        proHeader = new ViewManufacturingOrdersPage();
+        create.createButton.click();
+        product.productDropDown.sendKeys("leghmen");
+        createEdit.createAndEditButton.click();
+        Thread.sleep(1000);
+        String expectedHeader = "Create: Product";
+        String actualHeader = proHeader.productHeader.getText();
+        Assert.assertEquals(actualHeader, expectedHeader);
+    }
+
+    @Test
+    public void BRIT_2004() throws InterruptedException {
+        /*
+         *  Verify that on the New create page the Deadline Start box should be filled with current
+         *     month/day/year hour:minutes:second as default
+         * 1. login as a manager
+         * 2. click manufacturing module
+         * 3. click create button
+         * 4.
+         */
+
+        createEdit = new ViewManufacturingOrdersPage();
+        product = new ViewManufacturingOrdersPage();
+        create = new ViewManufacturingOrdersPage();
+        deadline = new ViewManufacturingOrdersPage();
+        create.createButton.click();
+        Thread.sleep(1000);
+        String actualDate= deadline.deadlineStartBox.getAttribute("id");
+        System.out.println(actualDate);
     }
 
 
