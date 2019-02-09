@@ -15,6 +15,7 @@ public class UserLogin extends TestBase {
 
         assertEquals(driver.getTitle(), ApplicationConstants.LOGIN_PAGE_TITLE);
         extentLogger.info("Login to application");
+
         pages.login().userLogin();
         extentLogger.info("Verifying url");
         assertEquals(driver.getTitle(),
