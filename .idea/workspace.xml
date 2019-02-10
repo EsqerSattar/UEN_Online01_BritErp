@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa40843f-1bf1-4e4d-8770-80948b7a628d" name="Default Changelist" comment="" />
+    <list default="true" id="fa40843f-1bf1-4e4d-8770-80948b7a628d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="174" selection-start-line="174" selection-end-line="174" />
+            <state relative-caret-position="115">
+              <caret line="170" column="81" lean-forward="true" selection-start-line="170" selection-start-column="81" selection-end-line="170" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -27,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="134">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,13 +42,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -60,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
+            <state relative-caret-position="155">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#318#319#0" expanded="true" />
@@ -174,9 +176,10 @@
         <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/ApplicationConstants.java" />
         <option value="$PROJECT_DIR$/configuration.properties" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/tests/smoke_tests/smokeTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java" />
+        <option value="$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java" />
       </list>
     </option>
   </component>
@@ -205,6 +208,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -300,11 +304,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549711293029" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549753186121" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -438,12 +441,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ManufacturingOrders_BRIT_1437 - 2019.02.09 at 03h 46m 04s.xml">
-      <configuration name="ManufacturingOrders.BRIT_1437" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ManufacturingOrders_BRIT_2004 - 2019.02.09 at 03h 55m 37s.xml">
-      <configuration name="ManufacturingOrders.BRIT_2004" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ManufacturingOrders_BRIT_2004 - 2019.02.09 at 03h 58m 02s.xml">
       <configuration name="ManufacturingOrders.BRIT_2004" configurationId="TestNG" />
     </history-entry>
@@ -468,11 +465,18 @@
     <history-entry file="ManufacturingOrders_BRIT_2004 - 2019.02.09 at 04h 20m 11s.xml">
       <configuration name="ManufacturingOrders.BRIT_2004" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ManufacturingOrders_BRIT_2004 - 2019.02.09 at 15h 51m 24s.xml">
+      <configuration name="ManufacturingOrders.BRIT_2004" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ManufacturingOrders_BRIT_2004 - 2019.02.09 at 15h 52m 39s.xml">
+      <configuration name="ManufacturingOrders.BRIT_2004" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30129242" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30613893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -481,12 +485,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32692307" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2547945" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46314102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39865997" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.19070514" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30448717" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290938" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.27884614" />
@@ -608,26 +612,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/AkramFunctionality.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/login/ManagerLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -644,18 +628,6 @@
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -705,6 +677,45 @@
             <element signature="imports" expanded="true" />
             <element signature="e#313#314#0" expanded="true" />
             <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/utilities/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/tests/functional_tests/major_functionality/ManufacturingOrders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="170" column="81" lean-forward="true" selection-start-line="170" selection-start-column="81" selection-end-line="170" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/britErp/pages/ViewManufacturingOrdersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
           </folding>
         </state>
       </provider>

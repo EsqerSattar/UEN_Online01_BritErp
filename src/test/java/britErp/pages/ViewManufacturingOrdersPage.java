@@ -79,6 +79,7 @@ public class ViewManufacturingOrdersPage {
     @FindBy(xpath = "//input[@name='date_planned_start']")
     public WebElement deadlineStartBox;
 
+
     public void managerLogin_1() {
         //click demo login
         clickDemo.click();

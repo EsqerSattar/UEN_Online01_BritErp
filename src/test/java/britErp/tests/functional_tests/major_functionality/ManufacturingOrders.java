@@ -168,7 +168,7 @@ public class ManufacturingOrders extends TestBase {
         deadline = new ViewManufacturingOrdersPage();
         create.createButton.click();
         Thread.sleep(1000);
-        String actualDate= deadline.deadlineStartBox.getAttribute("id");
+        String actualDate= deadline.deadlineStartBox.getAttribute("placeholder");
         System.out.println(actualDate);
     }
 
