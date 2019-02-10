@@ -20,7 +20,7 @@ import static org.testng.Assert.assertEquals;
 public class ManufacturingOrders extends TestBase {
         WebDriverWait wait;
         ViewManufacturingOrdersPage MOrdersHeader, create, save, discard, cancel, product, createEdit, proHeader,
-                deadline;
+                deadline, responsible, arrow, openHeader, Utitle, userLogin;
 
 
     @BeforeMethod
@@ -65,10 +65,10 @@ public class ManufacturingOrders extends TestBase {
         extentLogger = report.createTest("User login as a Manager BRIT-1437");
         extentLogger.info("Logging to the application");
         wait.until(ExpectedConditions.visibilityOf( MOrdersHeader.Header));
-        Thread.sleep(1300);
+        Thread.sleep(1500);
         String expectedMOrdersHeader = "Manufacturing Orders";
         String actualMOrdersHeader = MOrdersHeader.Header.getText();
-        Assert.assertEquals(actualMOrdersHeader,expectedMOrdersHeader);
+            Assert.assertEquals(actualMOrdersHeader,expectedMOrdersHeader);
 
     }
 
@@ -91,11 +91,11 @@ public class ManufacturingOrders extends TestBase {
         create.createButton.click();
         Thread.sleep(1500);
         String expectedNewUrl = "http://52.39.162.23/web?#id=&view_type=form&model=mrp.production&menu_id=431&action=592";
-        Assert.assertEquals(driver.getCurrentUrl(),expectedNewUrl);
-        Assert.assertEquals(driver.getTitle(),ApplicationConstants.NEW_PAGE_TITLE);
-        Assert.assertTrue(save.saveButton.isDisplayed());
-        Assert.assertTrue(discard.discardButton.isDisplayed());
-        Assert.assertTrue(cancel.cancelButton.isDisplayed());
+            Assert.assertEquals(driver.getCurrentUrl(),expectedNewUrl);
+            Assert.assertEquals(driver.getTitle(),ApplicationConstants.NEW_PAGE_TITLE);
+            Assert.assertTrue(save.saveButton.isDisplayed());
+            Assert.assertTrue(discard.discardButton.isDisplayed());
+            Assert.assertTrue(cancel.cancelButton.isDisplayed());
     }
 
     @Test
@@ -121,7 +121,7 @@ public class ManufacturingOrders extends TestBase {
         create.createButton.click();
         Thread.sleep(1300);
         product.productDropDown.click();
-        Assert.assertTrue(createEdit.createAndEditButton.isDisplayed());
+            Assert.assertTrue(createEdit.createAndEditButton.isDisplayed());
         createEdit.createAndEditButton.click();
     }
 
@@ -148,7 +148,7 @@ public class ManufacturingOrders extends TestBase {
         Thread.sleep(1000);
         String expectedHeader = "Create: Product";
         String actualHeader = proHeader.productHeader.getText();
-        Assert.assertEquals(actualHeader, expectedHeader);
+            Assert.assertEquals(actualHeader, expectedHeader);
     }
 
     @Test
@@ -159,18 +159,56 @@ public class ManufacturingOrders extends TestBase {
          * 1. login as a manager
          * 2. click manufacturing module
          * 3. click create button
-         * 4.
+         * 4. verify that deadline start box field with current date and time
+         * 5. clear the box
+         * 6. type new date
          */
-
-        createEdit = new ViewManufacturingOrdersPage();
-        product = new ViewManufacturingOrdersPage();
         create = new ViewManufacturingOrdersPage();
         deadline = new ViewManufacturingOrdersPage();
+
         create.createButton.click();
         Thread.sleep(1000);
-        String actualDate= deadline.deadlineStartBox.getAttribute("placeholder");
-        System.out.println(actualDate);
+        deadline.deadlineStartBox.clear();
+        deadline.deadlineStartBox.sendKeys("02/14/2019");
+
     }
+
+    @Test
+    public void BRIT_2029() throws InterruptedException {
+
+
+        create = new ViewManufacturingOrdersPage();
+        responsible = new ViewManufacturingOrdersPage();
+        arrow = new ViewManufacturingOrdersPage();
+        openHeader = new ViewManufacturingOrdersPage();
+        Utitle = new ViewManufacturingOrdersPage();
+        userLogin = new ViewManufacturingOrdersPage();
+
+        create.createButton.click();
+        Thread.sleep(1000);
+        responsible.responsibleBox.click();
+        arrow.arrowButton.click();
+        String expectedHeader = "Open: Responsible";
+        String actualHeader = openHeader.openPageHeader.getText();
+            Assert.assertEquals(actualHeader,expectedHeader);
+//        String actualName = Utitle.userTitle.getText();
+//        String expectedName = "ManufacturingManager";
+//           Assert.assertEquals(actualName,expectedName);
+        String actualLogin=userLogin.loginUserName.getText();
+        String expectedLogin = "in_manuf_manager@info.com";
+            Assert.assertEquals(actualLogin,expectedLogin);
+
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 

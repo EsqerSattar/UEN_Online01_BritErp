@@ -5,6 +5,7 @@ import britErp.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import sun.awt.motif.X11CNS11643;
 
 public class ViewManufacturingOrdersPage {
 
@@ -78,6 +79,25 @@ public class ViewManufacturingOrdersPage {
 
     @FindBy(xpath = "//input[@name='date_planned_start']")
     public WebElement deadlineStartBox;
+
+    @FindBy(xpath = "//input[@id='o_field_input_262']")
+    public WebElement responsibleBox;
+
+    @FindBy(xpath = "(//button[@draggable='false'])[3]")
+    public WebElement arrowButton;
+
+    @FindBy(xpath = "//h4[@class='modal-title']")
+    public WebElement openPageHeader;
+
+    @FindBy(xpath = "//span[@name='name']")
+    public WebElement userTitle;
+
+    @FindBy(xpath = "//span[@name='login']")
+    public WebElement loginUserName;
+
+
+
+
 
 
     public void managerLogin_1() {

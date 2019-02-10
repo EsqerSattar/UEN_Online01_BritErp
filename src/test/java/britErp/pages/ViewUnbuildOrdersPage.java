@@ -30,12 +30,13 @@ public class ViewUnbuildOrdersPage {
     @FindBy(linkText ="Unbuild Orders")
     public WebElement unbuildOrders;
 
-    public void UnbuildOrdersFunction(){
+    public void UnbuildOrdersFunction() throws InterruptedException {
         clickDemo.click();
         Email.sendKeys(ConfigurationReader.getProperty("managerLogin"));
         password.sendKeys(ConfigurationReader.getProperty("managerPass"));
         loginButton.click();
         module.click();
+        //Thread.sleep(1000);
         unbuildOrders.click();
     }
 }

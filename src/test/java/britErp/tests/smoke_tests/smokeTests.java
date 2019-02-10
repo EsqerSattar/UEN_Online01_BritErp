@@ -15,7 +15,7 @@ public class smokeTests extends TestBase {
 
     @BeforeMethod
     public void setWait(){
-        wait = new WebDriverWait(Driver.getDriver(),30);
+        wait = new WebDriverWait(Driver.getDriver(),25);
     }
 
     @Test(groups = {"smoke"})
@@ -39,10 +39,9 @@ public class smokeTests extends TestBase {
     }
 
     @Test(groups = {"smoke"})
-    public void britSmokeTest_BRIT_3787(){
-        // create a new test / test case in the report and give name : Unbuild Order fuction Test
-        extentLogger = report.createTest("User login as a Manager BRIT-3787");
+    public void britSmokeTest_BRIT_3787() throws InterruptedException {
 
+        extentLogger = report.createTest("User login as a Manager BRIT-3787");
         extentLogger.info("Logging to the application");
         pages.viewUnbuildOrders().UnbuildOrdersFunction();
 

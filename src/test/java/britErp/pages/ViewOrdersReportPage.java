@@ -11,7 +11,6 @@ public class ViewOrdersReportPage{
        PageFactory.initElements(Driver.getDriver(),this);
 
     }
-
     @FindBy(xpath ="//a[contains(.,'Demo')]")
     public WebElement clickDemo;
 
