@@ -35,29 +35,29 @@ public class ViewManufacturingOrdersPage {
     @FindBy(xpath ="//button[@accesskey='c']")
     public WebElement createButton;
 
-    @FindBy(xpath ="(//button[@type='button'])[8]")
-    public WebElement ImportButton;
-
-    @FindBy(xpath = "//input[@class='o_searchview_input']")
-    public WebElement searchBox;
-
-    @FindBy(xpath = "//span[@class='o_pager_value']")
-    public WebElement pageNumber;
-
-    @FindBy(xpath = "//button[@accesskey='l']")
-    public WebElement listButton;
-
-    @FindBy(xpath = "//button[@accesskey='k']")
-    public WebElement kanbanButton;
-
-    @FindBy(xpath = "//button[@data-original-title='Calendar']")
-    public WebElement calendarButton;
-
-    @FindBy(xpath = "//button[@data-original-title='Pivot']")
-    public WebElement pivotButton;
-
-    @FindBy(xpath = "//button[@data-original-title='Graph']")
-    public WebElement graphButton;
+//    @FindBy(xpath ="(//button[@type='button'])[8]")
+//    public WebElement ImportButton;
+//
+//    @FindBy(xpath = "//input[@class='o_searchview_input']")
+//    public WebElement searchBox;
+//
+//    @FindBy(xpath = "//span[@class='o_pager_value']")
+//    public WebElement pageNumber;
+//
+//    @FindBy(xpath = "//button[@accesskey='l']")
+//    public WebElement listButton;
+//
+//    @FindBy(xpath = "//button[@accesskey='k']")
+//    public WebElement kanbanButton;
+//
+//    @FindBy(xpath = "//button[@data-original-title='Calendar']")
+//    public WebElement calendarButton;
+//
+//    @FindBy(xpath = "//button[@data-original-title='Pivot']")
+//    public WebElement pivotButton;
+//
+//    @FindBy(xpath = "//button[@data-original-title='Graph']")
+//    public WebElement graphButton;
 
     @FindBy(xpath = "//button[@accesskey='s']")
     public WebElement saveButton;
@@ -68,7 +68,7 @@ public class ViewManufacturingOrdersPage {
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[1]/div[1]/div[1]/button[8]")
     public WebElement cancelButton;
 
-    @FindBy(id = "o_field_input_254")
+    @FindBy(xpath = "//div[@name='product_id']")
     public WebElement productDropDown;
 
     @FindBy(xpath = "//li[@tabindex='-1'][2]")
@@ -80,7 +80,7 @@ public class ViewManufacturingOrdersPage {
     @FindBy(xpath = "//input[@name='date_planned_start']")
     public WebElement deadlineStartBox;
 
-    @FindBy(xpath = "//input[@id='o_field_input_262']")
+    @FindBy(xpath = "(//input[@autocomplete='off'])[4]")
     public WebElement responsibleBox;
 
     @FindBy(xpath = "(//button[@draggable='false'])[3]")
@@ -89,14 +89,32 @@ public class ViewManufacturingOrdersPage {
     @FindBy(xpath = "//h4[@class='modal-title']")
     public WebElement openPageHeader;
 
-    @FindBy(xpath = "//span[@name='name']")
+    @FindBy(xpath = "//*[@id=\"modal_303\"]/div/div/div[2]/div/div/div/div/div[3]/h1/span")
     public WebElement userTitle;
 
     @FindBy(xpath = "//span[@name='login']")
     public WebElement loginUserName;
 
+    @FindBy(xpath = "//*[@id=\"modal_303\"]/div/div/div[3]/button")
+    public WebElement closeButton;
 
+    @FindBy(xpath = "//li[@tabindex='-1'][8]")
+    public WebElement searchMoreButton;
 
+    @FindBy(xpath = "//h4[@class='modal-title']")
+    public WebElement searchPageHeader;
+
+    @FindBy(xpath = "//div[@class='o_searchview']")
+    public WebElement searchBoxInResponsiblePage;
+
+    @FindBy(xpath = "//*[@id=\"modal_361\"]/div/div/div[3]/button/span")
+    public WebElement cancel2;
+
+    @FindBy(xpath = "//li[@tabindex='-1'][1]")
+    public WebElement selectAny;
+
+    @FindBy(xpath = "//h4[@class='modal-title']")
+    public WebElement errorPageHeader;
 
 
 

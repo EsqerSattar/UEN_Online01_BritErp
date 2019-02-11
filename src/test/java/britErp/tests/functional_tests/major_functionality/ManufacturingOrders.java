@@ -6,6 +6,7 @@ import britErp.utilities.ConfigurationReader;
 import britErp.utilities.Driver;
 import britErp.utilities.TestBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -20,7 +21,8 @@ import static org.testng.Assert.assertEquals;
 public class ManufacturingOrders extends TestBase {
         WebDriverWait wait;
         ViewManufacturingOrdersPage MOrdersHeader, create, save, discard, cancel, product, createEdit, proHeader,
-                deadline, responsible, arrow, openHeader, Utitle, userLogin;
+          deadline, responsible, arrow, openHeader, Utitle, userLogin,close, searchMore, searchHeader,searchResponsible,
+          cancelButton, select, errorHeader;
 
 
     @BeforeMethod
@@ -143,6 +145,7 @@ public class ManufacturingOrders extends TestBase {
         create = new ViewManufacturingOrdersPage();
         proHeader = new ViewManufacturingOrdersPage();
         create.createButton.click();
+
         product.productDropDown.sendKeys("leghmen");
         createEdit.createAndEditButton.click();
         Thread.sleep(1000);
@@ -175,7 +178,19 @@ public class ManufacturingOrders extends TestBase {
 
     @Test
     public void BRIT_2029() throws InterruptedException {
-
+        /*
+         *. Verify that on New create page the Responsible  dropdown default filled with user name
+         *      ManufacturingManager
+         * 1. login as a manager
+         * 2. click manufacturing module
+         * 3. click create button
+         * 4. verify that responsible dropdown filled ManufacturingManager
+         * 5. click the arrow button
+         * 6. verify that Open: Responsible header
+         * 7. verify that username is display
+         * 8. verify that user email is display
+         * 9. click Close button to close the page
+         */
 
         create = new ViewManufacturingOrdersPage();
         responsible = new ViewManufacturingOrdersPage();
@@ -184,20 +199,113 @@ public class ManufacturingOrders extends TestBase {
         Utitle = new ViewManufacturingOrdersPage();
         userLogin = new ViewManufacturingOrdersPage();
 
+        wait=new WebDriverWait(Driver.getDriver(),25);
+        close = new ViewManufacturingOrdersPage();
         create.createButton.click();
         Thread.sleep(1000);
         responsible.responsibleBox.click();
+
         arrow.arrowButton.click();
         String expectedHeader = "Open: Responsible";
         String actualHeader = openHeader.openPageHeader.getText();
             Assert.assertEquals(actualHeader,expectedHeader);
-//        String actualName = Utitle.userTitle.getText();
-//        String expectedName = "ManufacturingManager";
-//           Assert.assertEquals(actualName,expectedName);
+
+        String actualName = Utitle.userTitle.getText();
+        String expectedName = "ManufacturingManager";
+           Assert.assertEquals(actualName,expectedName);
+
         String actualLogin=userLogin.loginUserName.getText();
         String expectedLogin = "in_manuf_manager@info.com";
             Assert.assertEquals(actualLogin,expectedLogin);
 
+        close.closeButton.click();
+    }
+
+    @Test
+    public void BRIT_2041(){
+        /*
+        *.  Verify that when you click the Responsible dropdown, system should display  
+        *       users name and Search More button on the bottom of dropdown list.
+        * 1. login as a manager
+        * 2. click manufacturing
+        * 3. click create button
+        * 4. click Responsible dropdown
+        * 5. verify that Search More button display
+        * 6. verify that Search More button is clickable
+         */
+
+        create = new ViewManufacturingOrdersPage();
+        responsible = new ViewManufacturingOrdersPage();
+        searchMore = new ViewManufacturingOrdersPage();
+
+        create.createButton.click();
+        responsible.responsibleBox.click();
+        searchMore.searchMoreButton.isDisplayed();
+        searchMore.searchMoreButton.click();
+    }
+
+    @Test
+    public void BRIT_2045() throws InterruptedException {
+        /*
+         *. Verify that when you click the Search More button on the Responsible dropdown list system
+         *      should display new page with all the user’s users name, login ID, Language and Latest
+         *      connection table.
+         * 1. login as a manager
+         * 2. click manufacturing module
+         * 3. click create button
+         * 4. click Responsible dropdown
+         * 5. click Search More button
+         * 6. verify that search box is display
+         * 7. click close button
+         */
+
+        create = new ViewManufacturingOrdersPage();
+        responsible = new ViewManufacturingOrdersPage();
+        searchMore = new ViewManufacturingOrdersPage();
+        searchHeader = new ViewManufacturingOrdersPage();
+        searchResponsible = new ViewManufacturingOrdersPage();
+        cancelButton = new ViewManufacturingOrdersPage();
+
+
+        create.createButton.click();
+        responsible.responsibleBox.click();
+        searchMore.searchMoreButton.click();
+        Thread.sleep(1000);
+        String expectedHeader = "Search: Responsible";
+        String actualheader = searchHeader.searchPageHeader.getText();
+            Assert.assertEquals(actualheader,expectedHeader);
+
+        searchResponsible.searchBoxInResponsiblePage.isDisplayed();
+        cancelButton.cancel2.click();
+
+    }
+
+    @Test
+    public void BRIT_2050(){
+        /*
+         *. Verify that as a manager should NOT able to save the new manufacturing order page.
+         * 1. login as manager
+         * 2. click manufacturing module
+         * 3.click create button
+         * 4. click product box and from the dropdown select any item
+         * 5.click save button
+         * 6.verify error pop-up page header.
+         */
+
+
+        create = new ViewManufacturingOrdersPage();
+        product = new ViewManufacturingOrdersPage();
+        select = new ViewManufacturingOrdersPage();
+        save = new ViewManufacturingOrdersPage();
+        errorHeader = new ViewManufacturingOrdersPage();
+
+        create.createButton.click();
+        product.productDropDown.click();
+        select.selectAny.click();
+        save.saveButton.click();
+        String actualError = errorHeader.errorPageHeader.getText();
+        String expectedError = "Odoo Server Error - Access Error";
+            Assert.assertEquals(actualError,expectedError);
     }
 
 
