@@ -29,7 +29,6 @@ public class BrowserUtils {
             return false;
         }
         return true;
-
     }
 
     /**

@@ -29,7 +29,6 @@ public class LoginPage {
     @FindBy (linkText="Manufacturing")
     public WebElement module;
 
-
     public void managerLogin(){
         //click demo login
         clickDemo.click();
@@ -46,15 +45,5 @@ public class LoginPage {
         loginButton.click();
         module.click();
     }
-
-
-
-
-
-//    public void open() {
-//        Driver.getDriver().get(ConfigurationReader.getProperty("url"));
-//
-//    }
-
 
 }
